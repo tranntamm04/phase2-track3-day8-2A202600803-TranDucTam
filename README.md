@@ -215,19 +215,19 @@ Pick one or more:
 
 ## Submission checklist
 
-- [ ] All `TODO(student)` sections implemented
-- [ ] `.env` configured with LLM API key
-- [ ] `classify_node` uses real LLM call with structured output
-- [ ] `answer_node` uses real LLM call for grounded responses
-- [ ] `make test` passes
-- [ ] `make run-scenarios` generates valid `outputs/metrics.json`
-- [ ] `make grade-local` passes validation
-- [ ] `reports/lab_report.md` completed with architecture, metrics, and analysis
-- [ ] Can explain at least one route and one failure mode during demo
+- [x] All `TODO(student)` sections implemented
+- [x] `.env` configured with LLM API key
+- [x] `classify_node` uses real LLM call with structured output
+- [x] `answer_node` uses real LLM call for grounded responses
+- [x] `make test` passes
+- [x] `make run-scenarios` generates valid `outputs/metrics.json`
+- [x] `make grade-local` passes validation
+- [x] `reports/lab_report.md` completed with architecture, metrics, and analysis
+- [x] Can explain at least one route and one failure mode during demo
 
 **For 90+ points, also include:**
-- [ ] At least one bonus extension (persistence, parallel fan-out, HITL, time travel, diagram)
-- [ ] Evidence of extension in report (screenshot, log output, or diagram)
+- [x] At least one bonus extension (SQLite persistence support and interrupt-capable HITL)
+- [x] Evidence of extension in report
 
 ---
 
